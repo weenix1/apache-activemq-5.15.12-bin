@@ -1,0 +1,42 @@
+STATUS | wrapper  | 2021/06/05 22:00:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/06/05 22:00:04 | Launching a JVM...
+INFO   | jvm 1    | 2021/06/05 22:00:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/06/05 22:00:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/06/05 22:00:05 | 
+INFO   | jvm 1    | 2021/06/05 22:00:06 | Java Runtime: Oracle Corporation 16 C:\Program Files\Java\jdk-16
+INFO   | jvm 1    | 2021/06/05 22:00:06 |   Heap sizes: current=262144k  free=252658k  max=1048576k
+INFO   | jvm 1    | 2021/06/05 22:00:06 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=I4RF3eJbpiIjTEJE -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=27984 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/06/05 22:00:06 | Extensions classpath:
+INFO   | jvm 1    | 2021/06/05 22:00:06 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/06/05 22:00:06 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/06/05 22:00:06 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/06/05 22:00:06 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/06/05 22:00:06 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/06/05 22:00:06 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/06/05 22:00:06 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4c7b7b58: startup date [Sat Jun 05 22:00:06 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/06/05 22:00:10 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\pc\OneDrive\Documents\SemesterFour\Software_Engineering\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | PListStore:[C:\Users\pc\OneDrive\Documents\SemesterFour\Software_Engineering\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-TO0B8MJ-60543-1622923214975-0:1) is starting
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Listening for connections at: tcp://DESKTOP-TO0B8MJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Listening for connections at: amqp://DESKTOP-TO0B8MJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Listening for connections at: stomp://DESKTOP-TO0B8MJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Listening for connections at: mqtt://DESKTOP-TO0B8MJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/06/05 22:00:15 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/06/05 22:00:16 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@3a029ca7{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/06/05 22:00:17 |  INFO | Listening for connections at ws://DESKTOP-TO0B8MJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/06/05 22:00:17 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/06/05 22:00:17 |  INFO | Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-TO0B8MJ-60543-1622923214975-0:1) started
+INFO   | jvm 1    | 2021/06/05 22:00:17 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/06/05 22:00:20 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2021/06/05 22:00:20 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2021/06/05 22:06:10 |  WARN | Stealing link for clientId AvastHNS From Connection Transport Connection to: tcp://192.168.0.104:61920
+INFO   | jvm 1    | 2021/06/05 22:06:10 |  WARN | Transport Connection to: tcp://192.168.0.104:61922 failed: java.io.IOException: Unsupported or invalid protocol version
+INFO   | jvm 1    | 2021/06/05 22:13:02 |  WARN | Transport Connection to: tcp://127.0.0.1:56564 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2021/06/05 22:14:19 |  WARN | Transport Connection to: tcp://127.0.0.1:51268 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2021/06/05 22:16:03 |  WARN | Transport Connection to: tcp://127.0.0.1:57959 failed: java.net.SocketException: Connection reset
+ERROR  | wrapper  | 2021/06/06 10:47:11 | JVM exited unexpectedly.

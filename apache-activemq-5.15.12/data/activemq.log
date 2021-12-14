@@ -1,0 +1,26 @@
+2021-06-05 22:00:06,734 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4c7b7b58: startup date [Sat Jun 05 22:00:06 CEST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-06-05 22:00:10,580 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\pc\OneDrive\Documents\SemesterFour\Software_Engineering\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-06-05 22:00:14,954 | INFO  | PListStore:[C:\Users\pc\OneDrive\Documents\SemesterFour\Software_Engineering\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-06-05 22:00:15,114 | INFO  | Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-TO0B8MJ-60543-1622923214975-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-06-05 22:00:15,290 | INFO  | Listening for connections at: tcp://DESKTOP-TO0B8MJ:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-06-05 22:00:15,304 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-06-05 22:00:15,316 | INFO  | Listening for connections at: amqp://DESKTOP-TO0B8MJ:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-06-05 22:00:15,318 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-06-05 22:00:15,324 | INFO  | Listening for connections at: stomp://DESKTOP-TO0B8MJ:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-06-05 22:00:15,327 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-06-05 22:00:15,334 | INFO  | Listening for connections at: mqtt://DESKTOP-TO0B8MJ:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-06-05 22:00:15,337 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-06-05 22:00:15,356 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-06-05 22:00:15,540 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-06-05 22:00:16,273 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3a029ca7{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-06-05 22:00:17,084 | INFO  | Listening for connections at ws://DESKTOP-TO0B8MJ:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-06-05 22:00:17,097 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-06-05 22:00:17,099 | INFO  | Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-TO0B8MJ-60543-1622923214975-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-06-05 22:00:17,101 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-06-05 22:00:20,535 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-06-05 22:00:20,536 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-06-05 22:06:10,206 | WARN  | Stealing link for clientId AvastHNS From Connection Transport Connection to: tcp://192.168.0.104:61920 | org.apache.activemq.broker.region.RegionBroker | ActiveMQ Transport: tcp:///192.168.0.104:61921@1883
+2021-06-05 22:06:10,217 | WARN  | Transport Connection to: tcp://192.168.0.104:61922 failed: java.io.IOException: Unsupported or invalid protocol version | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///192.168.0.104:61922@1883
+2021-06-05 22:13:02,213 | WARN  | Transport Connection to: tcp://127.0.0.1:56564 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:56564@61616
+2021-06-05 22:14:19,525 | WARN  | Transport Connection to: tcp://127.0.0.1:51268 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51268@61616
+2021-06-05 22:16:03,835 | WARN  | Transport Connection to: tcp://127.0.0.1:57959 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:57959@61616
